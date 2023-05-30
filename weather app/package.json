@@ -1,0 +1,18 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "\"showing the user current weather, and user is able to search the weather by city name\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Yangyang Lin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
