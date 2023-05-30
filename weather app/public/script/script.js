@@ -15,8 +15,6 @@ const searchBtn=document.querySelector(".search button");
     getWeatherData(value,url)
  }
  function onError(position){
-   
-
  }
 })();
 async function getWeatherData(value,url){
@@ -29,7 +27,7 @@ async function getWeatherData(value,url){
     document.querySelector(".wind").innerHTML=data.wind.speed+"km/h";
     let weatherIcon=document.querySelector(".weather-icon");
     const icon=data.weather[0].icon;
-    weatherIcon.src=`http://openweathermap.org/img/wn/${icon}@2x.png`
+    weatherIcon.src=`https://openweathermap.org/img/wn/${icon}@2x.png`
     console.log(data.weather[0].icon)
 }
 searchBtn.addEventListener("click",()=>{
